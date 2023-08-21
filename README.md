@@ -1,5 +1,6 @@
 # gocie-website-facelift
 The facelifted version of the original GoCIE CIE-1931 plot utility software website.  
+[Visit live site](https://jolinthomas.github.io/gocie-website-facelift/)  
 
 *Any constructive contributions to this project would be greatly appreciated.*
 
