@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GoCIE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/app.js" defer></script>
+  </head>
+  <body>
+    <a href="#hero" class="smooth-scroll" id="go-to-top"
+      ><i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <div id="hero">
+      <nav class="nav-top">
+        <a href="./cie-plotground.html" target="_blank"
+          ><button id="try-btn">
+            <span
+              >Try it for Free <i class="fa-solid fa-feather"></i
+            ></span></button
+        ></a>
+        <a href="./assets/file/gocie.zip" download="gocie.zip"
+          ><button id="download-btn">Download</button></a
+        >
+      </nav>
+
+      <div class="logo-heading-container">
+        <div class="logo-heading-content">
+          <img src="./assets/head-logo.png" alt="GoCIE" id="logo-heading" />
+          <p id="version">v2.0</p>
+        </div>
+        <h1>CIE-1931 Plot Utility</h1>
+      </div>
+
+      <nav class="nav-bottom">
+        <ul class="nav-links">
+          <li class="bottom-nav-links">
+            <a href="https://faculty.iitr.ac.in/~krjt8fcy/index.html">Home</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#features" class="smooth-scroll">Features</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#screenshots" class="smooth-scroll">Screenshots</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#faqs" class="smooth-scroll">FAQs</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#citations" class="smooth-scroll">Citations</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- fixed nav -->
+      <nav class="nav-bottom-fixed">
+        <ul class="nav-links">
+          <li class="bottom-nav-links">
+            <a href="https://faculty.iitr.ac.in/~krjt8fcy/index.html">Home</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#features" class="smooth-scroll">Features</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#screenshots" class="smooth-scroll">Screenshots</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#faqs" class="smooth-scroll">FAQs</a>
+          </li>
+          <li class="bottom-nav-links">
+            <a href="#citations" class="smooth-scroll">Citations</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main">
+      <section id="features">
+        <a href="#features" class="smooth-scroll"><h2>Features</h2></a>
+        <p class="content-para feature-intro">
+          In the realm of data visualization and analysis, precision,
+          adaptability, and impact are paramount. Our platform introduces a
+          comprehensive array of cutting-edge features, designed to
+          revolutionize the way you work with data. From seamlessly customizable
+          visual elements to advanced conversion and printing capabilities, our
+          suite of dynamic features empowers you to craft, communicate, and
+          share insights like never before. Each feature within this innovative
+          toolkit is meticulously crafted to enhance your workflow, streamline
+          your tasks, and elevate the quality of your visual presentations.
+          Whether you're a seasoned professional or just stepping into the world
+          of data visualization, our platform offers an intuitive, user-centric
+          experience that aligns with your needs and goals. From refining color
+          schemes to converting spectral data into relatable coordinates, every
+          aspect of our features is aimed at simplifying complexity. With just a
+          few clicks, you can transform intricate data points into compelling
+          narratives that resonate with your audience. Whether it's presenting
+          to clients, peers, or students, our features make sure your insights
+          are delivered with precision and clarity.
+        </p>
+        <div class="feature">
+          <div class="f-left">
+            <img src="./assets/feature-img/feat1done.gif" alt="" />
+          </div>
+
+          <div class="f-right">
+            <h4>Various Coordinate systems to choose from</h4>
+            <p class="content-para">
+              Selecting an appropriate coordinate system for your plotting is a
+              pivotal aspect of achieving accurate and insightful
+              visualizations. Our platform offers you the flexibility to choose
+              from a range of coordinate systems that align seamlessly with your
+              data and objectives.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <h4>Add and Modify CIE points</h4>
+            <p class="content-para">
+              Incorporating and managing CIE points has never been easier. With
+              our user-friendly interface, you have the ability to effortlessly
+              add or modify CIE points to cater to your specific requirements.
+              This streamlined process allows you to achieve precision and
+              efficiency in your calculations, all with a single click of the
+              mouse.
+            </p>
+          </div>
+
+          <div class="f-right">
+            <img src="./assets/feature-img/feat2done.gif" alt="" />
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <img src="./assets/feature-img/feat3done.gif" alt="" />
+          </div>
+
+          <div class="f-right">
+            <h4>Function for spectrum to CIE-1931 coordinates conversion</h4>
+            <p class="content-para">
+              Unlock the potential of your spectral data by seamlessly
+              converting it into CIE-1931 coordinates. Our platform introduces a
+              sophisticated and efficient function that performs this conversion
+              with accuracy and ease, giving you the means to translate spectral
+              information into a visual representation that aligns with the
+              human perception of color.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <h4>Fully customizable CIE points by legend, symbol and color</h4>
+            <p class="content-para">
+              Experience the ultimate level of control and personalization with
+              our fully customizable CIE points feature. This innovative
+              capability allows you to tailor your CIE diagram to your exact
+              preferences, ensuring that every legend, symbol, and color
+              corresponds precisely to the data and insights you wish to convey.
+            </p>
+          </div>
+
+          <div class="f-right">
+            <img src="./assets/feature-img/feat4done.gif" alt="" />
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <img src="./assets/feature-img/feat5done.gif" alt="" />
+          </div>
+
+          <div class="f-right">
+            <h4>Quick change of color schemes for plotting</h4>
+            <p class="content-para">
+              Empowering you with versatility and visual impact, our platform
+              introduces a feature that allows you to swiftly alter color
+              schemes for your plots. This dynamic capability grants you the
+              freedom to experiment with different palettes, instantly
+              transforming the aesthetic and readability of your visualizations.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <h4>Copy or Save plots as required</h4>
+            <p class="content-para">
+              Experience the convenience and flexibility of having your visual
+              creations at your fingertips with our feature to copy or save
+              plots. This powerful functionality empowers you to effortlessly
+              capture, store, and share your visualizations in the formats and
+              mediums that best suit your needs.
+            </p>
+          </div>
+
+          <div class="f-right">
+            <img src="./assets/feature-img/feat6done.gif" alt="" />
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <img src="./assets/feature-img/feat7done.gif" alt="" />
+          </div>
+
+          <div class="f-right">
+            <h4>
+              Save plots in different sizes and formats (JPG, EMF, BMP, etc.)
+            </h4>
+            <p class="content-para">
+              Embrace unparalleled versatility in visual storytelling with our
+              feature that enables you to save your plots in different sizes and
+              formats. This dynamic functionality empowers you to tailor your
+              visualizations to various platforms, presentations, and purposes
+              by offering a wide array of sizes and formats, from standard
+              images like JPG and BMP to vector formats like EMF.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="f-left">
+            <h4>Print plot using a default printer</h4>
+            <p class="content-para">
+              Seamlessly bridge the gap between the digital and physical worlds
+              with our 'Print Plot Using a Default Printer' feature. This
+              intuitive functionality empowers you to effortlessly bring your
+              visualizations to life on paper, allowing you to share your
+              insights and findings in a tangible, impactful format.
+            </p>
+          </div>
+
+          <div class="f-right">
+            <img src="./assets/feature-img/feat8done.gif" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="screenshots">
+        <a href="#screenshots" class="smooth-scroll"><h2>Screenshots</h2></a>
+        <div class="gallery">
+          <div class="gallery-container">
+            <img
+              src="./assets/screenshot-img/ss1.png"
+              alt=""
+              class="gallery-item gallery-item-1"
+              data-index="1"
+            />
+            <img
+              src="./assets/screenshot-img/ss2.png"
+              alt=""
+              class="gallery-item gallery-item-2"
+              data-index="2"
+            />
+            <img
+              src="./assets/screenshot-img/ss3.png"
+              alt=""
+              class="gallery-item gallery-item-3"
+              data-index="3"
+            />
+            <img
+              src="./assets/screenshot-img/ss4.png"
+              alt=""
+              class="gallery-item gallery-item-4"
+              data-index="4"
+            />
+            <img
+              src="./assets/screenshot-img/ss5.png"
+              alt=""
+              class="gallery-item gallery-item-5"
+              data-index="5"
+            />
+          </div>
+          <div class="gallery-control"></div>
+        </div>
+      </section>
+
+      <section id="faqs">
+        <a href="#faqs" class="smooth-scroll"><h2>FAQs</h2></a>
+        <details>
+          <summary>
+            How to cite the usage of the software in publications and reports?
+            <i class="fa-solid fa-caret-down details-status"></i>
+          </summary>
+          <p class="content-para details-content">
+            GoCIE v2.0, K. R. Justin Thomas, Department of Chemistry, Indian
+            Institute of Technology Roorkee, India, 2009.
+          </p>
+        </details>
+        <details>
+          <summary>
+            How can I add a CIE point in the plot?
+            <i class="fa-solid fa-caret-down details-status"></i>
+          </summary>
+          <p class="content-para details-content">
+            Either select the option "Add CIE Point" from the tools drop down
+            menu or from the right click context menu and follow the
+            instructions given in the popup window.
+          </p>
+        </details>
+        <details>
+          <summary>
+            How to change the existing CIE point?
+            <i class="fa-solid fa-caret-down details-status"></i>
+          </summary>
+          <p class="content-para details-content">
+            Select the "Modify CIE Point" option from the tools drop down menu
+            or from the right click context menu and use the options given in
+            the popup window to modify the appearance of the existing CIE point.
+            You can change the CIE values, plot style and label.
+          </p>
+        </details>
+        <details>
+          <summary>
+            Why "spectra to CIE" conversion fails for my input file?
+            <i class="fa-solid fa-caret-down details-status"></i>
+          </summary>
+          <p class="content-para details-content">
+            This could be possibly due to several reasons. The data import
+            routine is equipped to handle text files (*.txt) containing
+            wavelength, absorbance data seperated either by a space(" ") or a
+            comma(","). Each set of points must be in separate lines as
+            illustrated below:<br />350, 0.1<br />351, 0.1<br />352, 0.1<br />...<br />
+            open the sample data files supplied along with the software to
+            figure out the problem in your file. If you cannot solve the problem
+            then contact the support for assistance with your data file.
+          </p>
+        </details>
+        <details>
+          <summary>
+            I have downloaded a demo version from the Internet. What are the
+            benefits of registration? How to get a registered version of GoCIE?
+            <i class="fa-solid fa-caret-down details-status"></i>
+          </summary>
+          <p class="content-para details-content">
+            Demo version comes with almost all the functionality of the
+            registered version except for the facility to save and recall the
+            CIE plot. By registering, you will also get notifications about
+            updates and bug fixes whenever they are available. For registering
+            <a href="mailto:krjtiitk@gmail.com">e-mail</a>
+            us. We will inform you further details.
+          </p>
+        </details>
+      </section>
+
+      <section id="citations">
+        <a href="#citations" class="smooth-scroll"><h2>Citations</h2></a>
+        <div class="container">
+          <ul>
+            <li>
+              <div class="citation">
+                <div class="left">1.</div>
+                <div class="right">
+                  <p class="cite-head">
+                    Rhodium(III)-Catalyzed ortho-Heteroarylation of Phenols
+                    through Internal Oxidative C-H Activation: Rapid Screening
+                    of Single-Molecular White-Light-Emitting Materials,
+                  </p>
+                  <p>
+                    B. Li, J. Lan, D. Wu, J. You, Angew. Chem. Int. Ed., 2015,
+                    54, 14008-14012. (Supporting Information)
+                  </p>
+                </div>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <div class="citation">
+                <div class="left">2.</div>
+                <div class="right">
+                  <p class="cite-head">
+                    Anion- interactions in new electron-deficient systems: the
+                    relevance to solid phosphorescent colors,
+                  </p>
+                  <p>
+                    G.-P. Yong, Y.-M. Zhang, W. L. She, CrystEng Comm, 2012, 14,
+                    3923-3929. (Page 3924)
+                  </p>
+                </div>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <div class="citation">
+                <div class="left">3.</div>
+                <div class="right">
+                  <p class="cite-head">
+                    Formation of Zn(II) and Cd(II) Coordination Polymers
+                    Assembled by Triazine-Based Polycarboxylate and in-
+                    Situ-Generated Pyridine-4-thiolate or Dipyridylsulfide
+                    Ligands: Observation of an Unusual Luminescence
+                    Thermochromism,
+                  </p>
+                  <p>
+                    Q. Zhu, T. Sheng, C. Tan, S. Hu, R. Fu, and X. Wu, Inorg.
+                    Chem., 2011, 50, 7618-7624. (Figure 3)
+                  </p>
+                </div>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <div class="citation">
+                <div class="left">4.</div>
+                <div class="right">
+                  <p class="cite-head">
+                    Direct white light emission from inorganic-organic hybrid
+                    semiconductor bulk materials,
+                  </p>
+                  <p>
+                    W. Ki, J. Li, G. Eda, M. Chhowalla, J. Mater. Chem., 2010,
+                    20, 10676–10679. (Figure 5)
+                  </p>
+                </div>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <div class="citation">
+                <div class="left">5.</div>
+                <div class="right">
+                  <p class="cite-head">
+                    A Semiconductor Bulk Material That Emits Direct White Light,
+                  </p>
+                  <p>
+                    W. Ki, J. Li, J. Am. Chem. Soc., 2008, 130, 8114-8115.
+                    (Figure S4)
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer">
+      <div class="backdrop-set">
+        <div class="foot-menu">
+          <ul class="menu1">
+            <li class="first-li"><a href="">About us</a></li>
+            <li class="second-li"><a href="">Contact us</a></li>
+            <li class="third-li"><a href="">Blogs</a></li>
+          </ul>
+          <ul class="menu2">
+            <li class="fourth-li"><a href="">Members</a></li>
+            <li class="fifth-li"><a href="">Research</a></li>
+            <li class="sixth-li"><a href="">Publications</a></li>
+            <li class="seventh-li"><a href="">Software</a></li>
+          </ul>
+        </div>
+        <div class="copyright-powered-by">
+          <p>Organic Material Lab &copy; 2006-2017</p>
+          <p><i>Powered By</i> <span id="company">UCaNoMi</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
