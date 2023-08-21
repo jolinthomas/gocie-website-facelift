@@ -1,6 +1,7 @@
 # gocie-website-facelift
-The facelifted version of the original GoCIE CIE-1931 plot utility software website.
+The facelifted version of the original GoCIE CIE-1931 plot utility software website.\n
 *Any constructive contributions to this project would be greatly appreciated.*
+
 
 ## Introduction
 The GoCIE Website Facelift project aims to enhance the user experience of the GoCIE CIE-1931 plot utility software website by adding animations, scroll enhancements, and design improvements.
